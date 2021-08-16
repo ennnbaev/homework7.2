@@ -4,11 +4,11 @@ public class Homework {
 
     public static void main(String[] args) {
         Stack example=new Stack();
-        for(int i=0;i<6;i++){
+        for(int i=0;i<10;i++){
             example.push(i);
         }
-        example.peek();
+        System.out.println(example.peek());
         example.push(6);
-        example.peek();
+        System.out.println(example.peek());
     }
 }
